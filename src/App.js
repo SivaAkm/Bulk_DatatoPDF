@@ -11,7 +11,7 @@ const App = () => {
   return (
    <Router>
     <Routes>
-      <Route path="/Bulk_DatatoPDF" element={<LandingPage />} />
+      <Route path="/BulkDatatoPDF" element={<LandingPage />} />
       <Route path="/UploadData" element={<UploadData />} />
       <Route path="/UploadTemplate" element={<UploadTemplate />} />
       <Route path="/EmailNotifier" element={<EmailNotifier />} />
