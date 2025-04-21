@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BulkDatatoPDF/static/css/main.99f3ed3c.css",
-    "main.js": "/BulkDatatoPDF/static/js/main.ab559d56.js",
-    "static/js/453.9246e268.chunk.js": "/BulkDatatoPDF/static/js/453.9246e268.chunk.js",
-    "index.html": "/BulkDatatoPDF/index.html",
-    "main.99f3ed3c.css.map": "/BulkDatatoPDF/static/css/main.99f3ed3c.css.map",
-    "main.ab559d56.js.map": "/BulkDatatoPDF/static/js/main.ab559d56.js.map",
-    "453.9246e268.chunk.js.map": "/BulkDatatoPDF/static/js/453.9246e268.chunk.js.map"
+    "main.css": "/Bulk_DatatoPDF/static/css/main.99f3ed3c.css",
+    "main.js": "/Bulk_DatatoPDF/static/js/main.0c4cbaab.js",
+    "static/js/453.9246e268.chunk.js": "/Bulk_DatatoPDF/static/js/453.9246e268.chunk.js",
+    "index.html": "/Bulk_DatatoPDF/index.html",
+    "main.99f3ed3c.css.map": "/Bulk_DatatoPDF/static/css/main.99f3ed3c.css.map",
+    "main.0c4cbaab.js.map": "/Bulk_DatatoPDF/static/js/main.0c4cbaab.js.map",
+    "453.9246e268.chunk.js.map": "/Bulk_DatatoPDF/static/js/453.9246e268.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99f3ed3c.css",
-    "static/js/main.ab559d56.js"
+    "static/js/main.0c4cbaab.js"
   ]
 }
