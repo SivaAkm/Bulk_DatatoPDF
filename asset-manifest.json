@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BulkDatatoPDF/static/css/main.99f3ed3c.css",
+    "main.js": "/BulkDatatoPDF/static/js/main.a507bf2c.js",
+    "static/js/453.9246e268.chunk.js": "/BulkDatatoPDF/static/js/453.9246e268.chunk.js",
+    "index.html": "/BulkDatatoPDF/index.html",
+    "main.99f3ed3c.css.map": "/BulkDatatoPDF/static/css/main.99f3ed3c.css.map",
+    "main.a507bf2c.js.map": "/BulkDatatoPDF/static/js/main.a507bf2c.js.map",
+    "453.9246e268.chunk.js.map": "/BulkDatatoPDF/static/js/453.9246e268.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99f3ed3c.css",
+    "static/js/main.a507bf2c.js"
+  ]
+}
