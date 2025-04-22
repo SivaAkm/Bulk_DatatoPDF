@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Bulk_DatatoPDF/static/css/main.99f3ed3c.css",
-    "main.js": "/Bulk_DatatoPDF/static/js/main.0c4cbaab.js",
+    "main.js": "/Bulk_DatatoPDF/static/js/main.feb1767e.js",
     "static/js/453.9246e268.chunk.js": "/Bulk_DatatoPDF/static/js/453.9246e268.chunk.js",
     "index.html": "/Bulk_DatatoPDF/index.html",
     "main.99f3ed3c.css.map": "/Bulk_DatatoPDF/static/css/main.99f3ed3c.css.map",
-    "main.0c4cbaab.js.map": "/Bulk_DatatoPDF/static/js/main.0c4cbaab.js.map",
+    "main.feb1767e.js.map": "/Bulk_DatatoPDF/static/js/main.feb1767e.js.map",
     "453.9246e268.chunk.js.map": "/Bulk_DatatoPDF/static/js/453.9246e268.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99f3ed3c.css",
-    "static/js/main.0c4cbaab.js"
+    "static/js/main.feb1767e.js"
   ]
 }
