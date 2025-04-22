@@ -57,7 +57,7 @@ const UploadTemplate = () => {
     const formDatatoSend = new FormData();
     formDatatoSend.append("file", file); 
     try {
-      const response = await fetch("http://localhost:7060/api/documents/upload-template", {
+      const response = await fetch("https://templategeneration-production.up.railway.app/api/documents/upload-template", {
         method: "POST",
         body: formDatatoSend,
       });

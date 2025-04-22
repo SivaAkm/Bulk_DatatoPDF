@@ -54,7 +54,7 @@ const UploadData = () => {
     const formDatatoSend = new FormData();
     formDatatoSend.append("file", file); 
     try {
-      const response = await fetch("http://localhost:7060/api/documents/upload-excel", {
+      const response = await fetch("https://templategeneration-production.up.railway.app/api/documents/upload-excel", {
         method: "POST",
         body: formDatatoSend,
       });
