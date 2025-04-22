@@ -25,7 +25,7 @@ const UploadTemplate = () => {
     if (!file) return showToast('No file selected.', "error");
 
     // Here you can upload to backend using FormData if needed
-    setFormData.fileDta=file
+    setFormData.file=file
 
     console.log('Uploading:', file);
     showToast("File uploaded successfully!", "success");
@@ -34,7 +34,7 @@ const UploadTemplate = () => {
 
   
   const [formData, setFormData] = useState({
-    fileDta:{}
+    file:{}
   });
 
   
@@ -54,15 +54,27 @@ const UploadTemplate = () => {
   };
 
   const onSubmitPersonalDetails = async () =>{
-    
+    const formDatatoSend = new FormData();
+    formDatatoSend.append("file", file); 
     try {
-      const response = await fetch("https://templategeneration-production.up.railway.app/api/documents/upload-template", {
+      const response = await fetch("http://localhost:7060/api/documents/upload-template", {
         method: "POST",
-        body: formData.fileDta,
+        body: formDatatoSend,
       });
 
       const data = await response.json();
       console.log("Upload Response:", data);
+
+      if (!response.ok) {
+        // 🔴 Handle client/server error responses
+        if (response.status >= 500) {
+          showToast("Server error. Please try again later.", "error");
+        } else if (response.status >= 400) {
+          showToast(data.status+" " + data.error+" "+data.message, "error");
+        }
+        return;
+      }
+      
      showToast("File uploaded successfully!", "success");
      navigate("/UploadData")
     } catch (error) {
